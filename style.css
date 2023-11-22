@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .navbar{
+    background-color: rgb(6, 6, 6);
+    color: azure;
+    display: block;
+    height: 80px;
+ }
+ .navbar .container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    background-color: black;
+    justify-content: space-between;
+ }
+
+ .navbar .container ul li {
+    display: inline-block;
+    margin-left: 20px;
+ }
+ body{
+    background-color: aliceblue;
+ }
+ .kelas{
+    width: 80%;
+    margin: auto;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "judul1 judul1 judul1 judul1"
+    "artikel1 artikel2 artikel2 artikel3"
+    "item4 item4 item4 item4";
+ }
+
+ .item1 {
+    grid-area: judul1;
+ }
+
+.item2 {
+    grid-area: artikel1;
+}
+
+.item3 {
+    grid-area: artikel2;
+}
+
+.item4 {
+    grid-area: artikel3;
+}
+
+.item5 {
+    grid-area: artikel 4;
+}
+
+.item6 {
+    grid-area: artikel 6;
+}
+
+.item7 {
+    grid-area: artikiel 7;
+}
+
